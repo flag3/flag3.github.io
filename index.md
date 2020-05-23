@@ -1,5 +1,9 @@
 # flag3 のページ
 
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
+
 ## Profile
 - 名前: flag3
 - Twitter: [@flag3833753](https://twitter.com/flag3833753)
