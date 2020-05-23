@@ -1,9 +1,5 @@
 # flag3 のページ
 
-<!-- Load KaTeX -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
-
 ## Profile
 - 名前: flag3
 - Twitter: [@flag3833753](https://twitter.com/flag3833753)
@@ -18,7 +14,7 @@ Ryo (@ryo_Iridium)，sb (@sb_syzygy) と Atiyah-Macdonald 可換代数入門の�
   変更履歴  
   2019/10/25: 公開  
   2020/05/14: 微修正  
-  2020/05/23: 14 の $\Sigma$ が帰納的であることの証明を加筆  
+  2020/05/23: 問題 14 を修正  
 - [Atiyah-MacDonald 可換代数入門 第 6 章演習問題解答](atiyah-macdonald/Chain_Conditions.pdf)  
   変更履歴  
   2020/05/14: 公開  
