@@ -1,5 +1,7 @@
 # flag3 のページ
 
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 ## Profile
 - 名前: flag3
 - Twitter: [@flag3833753](https://twitter.com/flag3833753)
