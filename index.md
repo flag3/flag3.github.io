@@ -11,6 +11,7 @@
   「基本群と被覆空間の Galois 理論」というタイトルで発表したときのレジュメです．本原稿の作成および発表にあたって Capila (@_Capila) さんにアドバイスをいただきました．  
   変更履歴  
   2020/06/29: 公開  
+  2020/11/01: 微修正  
 
 ### Atiyah-MacDonald 可換代数入門 演習問題解答
 Ryo (@ryo_Iridium)，sb (@sb_syzygy) と Atiyah-Macdonald 可換代数入門の演習問題を解くゼミをしています．2020/05/14 現在，第 1, 2, 3, 5, 6 章がゼミで完了しています．
@@ -20,6 +21,7 @@ Ryo (@ryo_Iridium)，sb (@sb_syzygy) と Atiyah-Macdonald 可換代数入門の�
   2019/10/25: 公開  
   2020/05/14: 微修正  
   2020/05/23: 問題 14 を修正  
+  2020/11/01: 微修正  
 - [Atiyah-MacDonald 可換代数入門 第 6 章演習問題解答](atiyah-macdonald/Chain_Conditions.pdf)  
   変更履歴  
   2020/05/14: 公開  
