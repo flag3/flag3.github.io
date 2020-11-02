@@ -14,7 +14,7 @@
   2020/11/01: 微修正  
 
 ### Atiyah-MacDonald 可換代数入門 演習問題解答
-Ryo (@ryo_Iridium)，sb (@sb_syzygy) と Atiyah-Macdonald 可換代数入門の演習問題を解くゼミをしています．2020/05/14 現在，第 1, 2, 3, 5, 6 章がゼミで完了しています．
+Ryo (@ryo_Iridium)，sb (@sb_syzygy) と Atiyah-Macdonald 可換代数入門の演習問題を解くゼミをしていました．
 
 - [Atiyah-MacDonald 可換代数入門 第 1 章演習問題解答](atiyah-macdonald/Rings_and_Ideals.pdf)  
   変更履歴  
