@@ -12,6 +12,7 @@
   変更履歴  
   2020/06/29: 公開  
   2020/11/01: 微修正  
+  2020/12/10: X 上の空間に関して脚注を追加  
 
 ### Atiyah-MacDonald 可換代数入門 演習問題解答
 Ryo (@ryo_Iridium)，sb (@sb_syzygy) と Atiyah-Macdonald 可換代数入門の演習問題を解くゼミをしていました．
