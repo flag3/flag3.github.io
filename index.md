@@ -14,6 +14,7 @@
   2020/11/01: 微修正  
   2020/12/10: X 上の空間に関して脚注を追加  
   2021/04/17: BiBTeX 導入による参考文献欄の変更  
+  2021/05/15: colorlinks=true にしました  
 
 ### Atiyah-MacDonald 可換代数入門 演習問題解答
 Ryo (@ryo_Iridium)，sb (@sb_syzygy) と Atiyah-Macdonald 可換代数入門の演習問題を解くゼミをしていました．
@@ -25,9 +26,11 @@ Ryo (@ryo_Iridium)，sb (@sb_syzygy) と Atiyah-Macdonald 可換代数入門の�
   2020/05/23: 問題 14 を修正  
   2020/11/01: 微修正  
   2021/04/17: BiBTeX 導入による参考文献欄の変更  
+  2021/05/15: colorlinks=true にしました  
 - [Atiyah-MacDonald 可換代数入門 第 6 章演習問題解答](atiyah-macdonald/Chain_Conditions.pdf)  
   変更履歴  
   2020/05/14: 公開  
   2021/04/17: BiBTeX 導入による参考文献欄の変更  
+  2021/05/15: colorlinks=true にしました  
 
 誤植，数学的誤り，不明点などがありましたら [Twitter](https://twitter.com/flag3833753) などでお願いします．
