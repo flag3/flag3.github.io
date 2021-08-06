@@ -17,7 +17,7 @@
   2021/05/15: colorlinks=true にしました  
 
 ### Atiyah-MacDonald 可換代数入門 演習問題解答
-Ryo (@ryo_Iridium)，sb (@sb_syzygy) と Atiyah-Macdonald 可換代数入門の演習問題を解くゼミをしていました．
+Ryo (@ryo_Iridium)，sb (@sb_syzygy) と Atiyah-MacDonald 可換代数入門の演習問題を解くゼミをしていました．
 
 - [Atiyah-MacDonald 可換代数入門 第 1 章演習問題解答](atiyah-macdonald/Rings_and_Ideals.pdf)  
   変更履歴  
