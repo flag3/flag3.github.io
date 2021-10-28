@@ -15,9 +15,10 @@
   2020/12/10: X 上の空間に関して脚注を追加  
   2021/04/17: BiBTeX 導入による参考文献欄の変更  
   2021/05/15: colorlinks=true にしました  
+  2021/10/28: 誤植を修正しました．から (@kara1216_) さんご指摘ありがとうございました．  
 
 ### Atiyah-MacDonald 可換代数入門 演習問題解答
-Ryo (@ryo_Iridium)，sb (@sb_syzygy) と Atiyah-MacDonald 可換代数入門の演習問題を解くゼミをしていました．
+Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代数入門の演習問題を解くゼミをしていました．
 
 - [Atiyah-MacDonald 可換代数入門 第 1 章演習問題解答](atiyah-macdonald/Rings_and_Ideals.pdf)  
   変更履歴  
