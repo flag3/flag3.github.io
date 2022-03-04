@@ -40,3 +40,6 @@ Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代
   2021/05/15: colorlinks=true にしました．  
 
 誤植，数学的誤り，不明点などがありましたら [Twitter](https://twitter.com/flag3833753) などでお願いします．
+
+## その他
+- [ポケモン赤緑で簡易版バイナリエディタを作ったお話](https://flag3833753.hatenablog.com/entry/2022/01/29/222112)
