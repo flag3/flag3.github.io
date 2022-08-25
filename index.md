@@ -45,3 +45,4 @@ Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代
 - [ポケモン赤緑で簡易版バイナリエディタを作ったお話](https://flag3833753.hatenablog.com/entry/2022/01/29/222112)
 - [バイナリエディタ導入チャート ピカチュウ版](https://flag3833753.hatenablog.com/entry/2022/08/06/210040)
 - [ポケモン金銀にバイナリエディタを移植したお話](https://flag3833753.hatenablog.com/entry/2022/08/17/192006)
+- [ポケモンクリスタルにおけるバイナリエディタ](https://flag3833753.hatenablog.com/entry/2022/08/25/220330)
