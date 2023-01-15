@@ -33,6 +33,7 @@ Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代
   変更履歴  
   2021/08/06: 公開．  
   2021/08/08: 微修正．  
+  2023/01/15: 問題 15 を修正しました．葵 (@math_and_discus) さんありがとうございました．  
 - [Atiyah-MacDonald 可換代数入門 第 6 章演習問題解答](atiyah-macdonald/Chain_Conditions.pdf)  
   変更履歴  
   2020/05/14: 公開．  
