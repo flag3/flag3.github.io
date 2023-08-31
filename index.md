@@ -4,7 +4,7 @@
 
 - 名前: flag3
 - Twitter: [@flag3833753](https://twitter.com/flag3833753)
-- 数学をやっています．
+- 数学と初代・第二世代ポケモンの任意コード実行をやっています．
 
 ## PDFs
 
@@ -44,7 +44,7 @@ Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代
 
 誤植，数学的誤り，不明点などがありましたら [Twitter](https://twitter.com/flag3833753) などでお願いします．
 
-## その他
+## ブログ記事
 
 - [ポケモン赤緑で簡易版バイナリエディタを作ったお話](https://flag3833753.hatenablog.com/entry/2022/01/29/222112)
 - [バイナリエディタ導入チャート ピカチュウ版](https://flag3833753.hatenablog.com/entry/2022/08/06/210040)
@@ -52,3 +52,9 @@ Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代
 - [ポケモンクリスタルにおけるバイナリエディタ](https://flag3833753.hatenablog.com/entry/2022/08/25/220330)
 - [バイナリエディタ導入 森地図チャート ピカチュウ版](https://flag3833753.hatenablog.com/entry/2022/12/18/170019)
 - [バイナリエディタ導入 毒サファリ・いあいぎりルート ピカチュウ版](https://flag3833753.hatenablog.com/entry/2023/02/09/200159)
+- [ポケモン金 バイナリエディタ起動 RTA チャート](https://flag3833753.hatenablog.com/entry/2023/08/31/213000)
+
+## 制作物
+
+- [Pokemon Z80 Hex and String Converter](https://flag3.github.io/pokemon-hex-string-converter/)
+- [Pixel Art Editor](https://flag3.github.io/pixel-art-editor/)
