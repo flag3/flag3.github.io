@@ -57,5 +57,5 @@ Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代
 
 ## Tools
 
-- [Pokemon Z80 Hex and String Converter](https://flag3.github.io/pokemon-hex-string-converter/)
+- [Hex Converter for Game Boy Pokémon](https://flag3.github.io/hex-converter-GB-Pokemon/)
 - [Pixel Art Editor](https://flag3.github.io/pixel-art-editor/)
