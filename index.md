@@ -54,6 +54,7 @@ Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代
 - [バイナリエディタ導入 毒サファリ・いあいぎりルート ピカチュウ版](https://flag3833753.hatenablog.com/entry/2023/02/09/200159)
 - [ポケモン金 バイナリエディタ起動 RTA チャート](https://flag3833753.hatenablog.com/entry/2023/08/31/213000)
 - [ポケモン 第二世代 マスターボール ID 調整 (任意コード実行)](https://flag3833753.hatenablog.com/entry/2023/09/29/180046)
+- [ポケモンクリスタル 0x1500 制御コードによる任意コード実行](https://flag3833753.hatenablog.com/entry/2023/11/07/180000)
 
 ## Tools
 
