@@ -58,6 +58,7 @@ Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代
 - [ポケモンクリスタル バイナリエディタ起動 チャート](https://flag3833753.hatenablog.com/entry/2023/11/08/073001)
 - [ポケモン金銀 バイナリエディタ起動 SRAM Glitch チャート](https://flag3833753.hatenablog.com/entry/2023/11/13/170000)
 - [ポケモン 第二世代 時間再設定 (任意コード実行)](https://flag3833753.hatenablog.com/entry/2023/12/04/200842)
+- [ポケットモンスター クリスタル Any% チャート](https://flag3833753.hatenablog.com/entry/2024/01/23/171024)
 
 ## Tools
 
