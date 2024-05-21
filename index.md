@@ -44,21 +44,10 @@ Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代
 
 誤植，数学的誤り，不明点などがありましたら [Twitter](https://twitter.com/flag3833753) などでお願いします．
 
-## Articles
+## [Blogs](https://flag3.github.io/blog/)
 
-- [ポケモン赤緑で簡易版バイナリエディタを作ったお話](https://flag3833753.hatenablog.com/entry/2022/01/29/222112)
-- [バイナリエディタ導入チャート ピカチュウ版](https://flag3833753.hatenablog.com/entry/2022/08/06/210040)
-- [ポケモン金銀にバイナリエディタを移植したお話](https://flag3833753.hatenablog.com/entry/2022/08/17/192006)
-- [ポケモンクリスタルにおけるバイナリエディタ](https://flag3833753.hatenablog.com/entry/2022/08/25/220330)
-- [バイナリエディタ導入 森地図チャート ピカチュウ版](https://flag3833753.hatenablog.com/entry/2022/12/18/170019)
-- [バイナリエディタ導入 毒サファリ・いあいぎりルート ピカチュウ版](https://flag3833753.hatenablog.com/entry/2023/02/09/200159)
-- [ポケモン金 バイナリエディタ起動 RTA チャート](https://flag3833753.hatenablog.com/entry/2023/08/31/213000)
-- [ポケモン 第二世代 マスターボール ID 調整 (任意コード実行)](https://flag3833753.hatenablog.com/entry/2023/09/29/180046)
-- [ポケモンクリスタル 0x1500 制御コードによる任意コード実行](https://flag3833753.hatenablog.com/entry/2023/11/07/180000)
-- [ポケモンクリスタル バイナリエディタ起動 チャート](https://flag3833753.hatenablog.com/entry/2023/11/08/073001)
-- [ポケモン金銀 バイナリエディタ起動 SRAM Glitch チャート](https://flag3833753.hatenablog.com/entry/2023/11/13/170000)
-- [ポケモン 第二世代 時間再設定 (任意コード実行)](https://flag3833753.hatenablog.com/entry/2023/12/04/200842)
-- [ポケットモンスター クリスタル Any% チャート](https://flag3833753.hatenablog.com/entry/2024/01/23/171024)
+- [ポケットモンスター 赤・緑・青 バイナリエディタ](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-red-green-blue/)
+- [RAM Writer in Pokémon Red/Green/Blue (JPN)](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-red-green-blue-en/)
 
 ## Tools
 
