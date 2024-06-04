@@ -47,7 +47,9 @@ Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代
 ## [Blogs](https://flag3.github.io/blog/)
 
 - [ポケットモンスター 赤・緑・青 バイナリエディタ](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-red-green-blue/)
-- [RAM Writer in Pokémon Red/Green/Blue (JPN)](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-red-green-blue-en/)
+- [ポケットモンスター ピカチュウ バイナリエディタ](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-yellow/)
+- [RAM Writer in Pokémon Red/Green/Blue (JP)](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-red-green-blue-en/)
+- [RAM Writer in Pokémon Yellow (JP)](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-yellow-en/)
 
 ## Tools
 
