@@ -44,7 +44,7 @@ Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代
 
 誤植，数学的誤り，不明点などがありましたら [Twitter](https://twitter.com/flag3833753) などでお願いします．
 
-## [Blogs](https://flag3.github.io/blog/)
+## [Blog](https://flag3.github.io/blog/)
 
 - [ポケットモンスター 赤・緑・青 バイナリエディタ](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-red-green-blue/)
 - [ポケットモンスター ピカチュウ バイナリエディタ](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-yellow/)
