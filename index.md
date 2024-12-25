@@ -48,6 +48,7 @@ Ryo (@ryo_Iridium) さん，sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代
 
 - [ポケットモンスター 赤・緑・青 バイナリエディタ](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-red-green-blue/)
 - [ポケットモンスター ピカチュウ バイナリエディタ](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-yellow/)
+- [ポケットモンスター ピカチュウ バイナリエディタ レポートバグなし](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-yellow-nsc/)
 - [ポケットモンスター 金・銀 バイナリエディタ](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-gold-silver/)
 - [ポケットモンスター クリスタル バイナリエディタ](https://flag3.github.io/blog/posts/ram-writer-in-pokemon-crystal/)
 - [ポケットモンスター 金・銀・クリスタル IDくじ調整（任意コード実行）](https://flag3.github.io/blog/posts/lucky-id-number/)
