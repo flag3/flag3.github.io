@@ -7,8 +7,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.5.0",
-    "@vercel/speed-insights": "^1.2.0",
     "feed": "^5.1.0",
     "katex": "^0.16.22",
     "next": "^15.3.4",
