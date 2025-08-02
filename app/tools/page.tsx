@@ -13,7 +13,7 @@ const tools: Tool[] = [
   {
     title: "Hex Converter for Game Boy Pokémon",
     description: "Convert between different formats for Game Boy Pokémon game manipulation",
-    url: "https://flag3.github.io/hex-converter-GB-Pokemon/",
+    url: "https://flag3.github.io/hex-converter-gb-pokemon/",
   },
   {
     title: "Pixel Art Editor",
@@ -23,7 +23,7 @@ const tools: Tool[] = [
   {
     title: "Vite Input for Game Boy Pokémon",
     description: "Input tool for Game Boy Pokémon games that helps with Japanese input",
-    url: "https://flag3.github.io/vite-input-GB-Pokemon/",
+    url: "https://flag3.github.io/vite-input-gb-pokemon/",
   },
 ];
 

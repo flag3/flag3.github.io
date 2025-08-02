@@ -1,6 +1,13 @@
 // PDF redirect script for GitHub Pages 404 fallback
 (function() {
   const path = window.location.pathname;
+  const lowerPath = path.toLowerCase();
+
+  // First check if path contains uppercase letters and redirect to lowercase
+  if (path !== lowerPath) {
+    window.location.replace(lowerPath);
+    return;
+  }
 
   if (path.endsWith('.pdf')) {
     let redirectPath = '';
