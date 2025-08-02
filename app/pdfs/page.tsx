@@ -18,7 +18,7 @@ const documents: Document[] = [
     title: "基本群と被覆空間の Galois 理論",
     description: "「基本群と被覆空間の Galois 理論」というタイトルで発表したときのレジュメです。本原稿の作成および発表にあたって Capila (@_Capila) さんにアドバイスをいただきました。",
     mainUrl: "/pdfs/pi1.pdf",
-    supplementUrl: "/pdfs/pi1_pic.pdf",
+    supplementUrl: "/pdfs/pi1-pic.pdf",
     lastUpdated: "2021/11/11",
   },
 ];
@@ -27,19 +27,19 @@ const atiyahMacdonaldChapters = [
   {
     chapter: 1,
     title: "Rings and Ideals",
-    url: "/pdfs/atiyah-macdonald/Rings_and_Ideals.pdf",
+    url: "/pdfs/atiyah-macdonald/rings-and-ideals.pdf",
     lastUpdated: "2021/05/15",
   },
   {
     chapter: 2,
     title: "Modules",
-    url: "/pdfs/atiyah-macdonald/Modules.pdf",
+    url: "/pdfs/atiyah-macdonald/modules.pdf",
     lastUpdated: "2023/01/15",
   },
   {
     chapter: 6,
     title: "Chain Conditions",
-    url: "/pdfs/atiyah-macdonald/Chain_Conditions.pdf",
+    url: "/pdfs/atiyah-macdonald/chain-conditions.pdf",
     lastUpdated: "2021/05/15",
   },
 ];

@@ -16,14 +16,19 @@ interface PdfRedirectProps {
 
 export default async function PdfRedirect({ params }: PdfRedirectProps) {
   const { pdf } = await params;
-  const fullPath = pdf.join('/');
+  const transformedPdf = pdf.map(segment => 
+    segment
+      .replace(/_/g, '-')
+      .toLowerCase()
+  );
+  const fullPath = transformedPdf.join('/');
 
   if (fullPath.endsWith('.pdf')) {
     let redirectPath = '';
 
-    if (pdf.length === 1) {
+    if (transformedPdf.length === 1) {
       redirectPath = `/pdfs/${fullPath}`;
-    } else if (pdf[0] === 'atiyah-macdonald' && pdf.length === 2) {
+    } else if (transformedPdf[0] === 'atiyah-macdonald' && transformedPdf.length === 2) {
       redirectPath = `/pdfs/${fullPath}`;
     } else {
       redirectPath = `/pdfs/${fullPath}`;
