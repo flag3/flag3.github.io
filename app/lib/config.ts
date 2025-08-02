@@ -10,6 +10,7 @@ export const metaData = {
 export const socialLinks = {
   twitter: "https://x.com/flag3833753",
   github: "https://github.com/flag3",
+  youtube: "https://youtube.com/channel/UC1oz3y44DLdvMzHrwuKuYmA",
   instagram: "https://www.instagram.com/",
   linkedin: "https://www.linkedin.com/",
   email: "mailto:example@gmail.com",
