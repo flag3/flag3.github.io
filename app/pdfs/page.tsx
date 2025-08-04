@@ -61,8 +61,6 @@ export default function DocumentsPage() {
               <div className="flex gap-4">
                 <a
                   href={document.mainUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="text-neutral-900 dark:text-neutral-100 font-medium hover:text-neutral-600 dark:hover:text-neutral-300 hover:underline"
                 >
                   本文 (PDF)
@@ -70,8 +68,6 @@ export default function DocumentsPage() {
                 {document.supplementUrl && (
                   <a
                     href={document.supplementUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="text-neutral-900 dark:text-neutral-100 font-medium hover:text-neutral-600 dark:hover:text-neutral-300 hover:underline"
                   >
                     具体例や絵など (PDF)
@@ -105,8 +101,6 @@ export default function DocumentsPage() {
                 </div>
                 <a
                   href={chapter.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="text-neutral-900 dark:text-neutral-100 font-medium hover:text-neutral-600 dark:hover:text-neutral-300 hover:underline"
                 >
                   PDF を開く

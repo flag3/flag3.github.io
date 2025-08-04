@@ -42,8 +42,6 @@ export default function ToolsPage() {
           <div key={tool.url} className="group">
             <a
               href={tool.url}
-              target="_blank"
-              rel="noopener noreferrer"
               className="block p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors"
             >
               <h2 className="text-lg font-medium mb-2 group-hover:text-neutral-800 dark:group-hover:text-neutral-200">
