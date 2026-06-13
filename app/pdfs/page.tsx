@@ -16,10 +16,11 @@ interface Document {
 const documents: Document[] = [
   {
     title: "基本群と被覆空間の Galois 理論",
-    description: "「基本群と被覆空間の Galois 理論」というタイトルで発表したときのレジュメです。本原稿の作成および発表にあたって Capila (@_Capila) さんにアドバイスをいただきました。",
+    description:
+      "「基本群と被覆空間の Galois 理論」というタイトルで発表したときのレジュメです。本原稿の作成および発表にあたって Capila (@_Capila) さんにアドバイスをいただきました。",
     mainUrl: "/pdfs/pi1.pdf",
     supplementUrl: "/pdfs/pi1-pic.pdf",
-    lastUpdated: "2025/08/18",
+    lastUpdated: "2026/06/12",
   },
 ];
 
@@ -48,16 +49,17 @@ export default function DocumentsPage() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium">PDFs</h1>
-      
+
       <div className="mb-12">
         <h2 className="mb-6 text-xl font-medium">Mathematical Documents</h2>
         <div className="space-y-6">
           {documents.map((document) => (
-            <div key={document.mainUrl} className="border border-neutral-200 dark:border-neutral-800 rounded-lg p-6">
+            <div
+              key={document.mainUrl}
+              className="border border-neutral-200 dark:border-neutral-800 rounded-lg p-6"
+            >
               <h3 className="text-lg font-medium mb-2">{document.title}</h3>
-              <p className="text-neutral-600 dark:text-neutral-400 mb-4">
-                {document.description}
-              </p>
+              <p className="text-neutral-600 dark:text-neutral-400 mb-4">{document.description}</p>
               <div className="flex gap-4">
                 <a
                   href={document.mainUrl}
@@ -85,11 +87,15 @@ export default function DocumentsPage() {
       <div>
         <h2 className="mb-6 text-xl font-medium">Atiyah-MacDonald 可換代数入門 演習問題解答</h2>
         <p className="text-neutral-600 dark:text-neutral-400 mb-6">
-          Ryo (@ryo_Iridium) さん、sb (@sb_syzygy) さんと Atiyah-MacDonald 可換代数入門の演習問題を解くゼミをしていました。
+          Ryo (@ryo_Iridium) さん、sb (@sb_syzygy) さんと Atiyah-MacDonald
+          可換代数入門の演習問題を解くゼミをしていました。
         </p>
         <div className="space-y-4">
           {atiyahMacdonaldChapters.map((chapter) => (
-            <div key={chapter.url} className="border border-neutral-200 dark:border-neutral-800 rounded-lg p-4">
+            <div
+              key={chapter.url}
+              className="border border-neutral-200 dark:border-neutral-800 rounded-lg p-4"
+            >
               <div className="flex justify-between items-center">
                 <div>
                   <h3 className="font-medium">
