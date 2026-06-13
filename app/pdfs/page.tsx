@@ -20,7 +20,7 @@ const documents: Document[] = [
       "「基本群と被覆空間の Galois 理論」というタイトルで発表したときのレジュメです。本原稿の作成および発表にあたって Capila (@_Capila) さんにアドバイスをいただきました。",
     mainUrl: "/pdfs/pi1.pdf",
     supplementUrl: "/pdfs/pi1-pic.pdf",
-    lastUpdated: "2026/06/12",
+    lastUpdated: "2026/06/13",
   },
 ];
 
