@@ -25,6 +25,12 @@ const tools: Tool[] = [
     description: "Input tool for Game Boy Pokémon games that helps with Japanese input",
     url: "https://flag3.github.io/vite-input-gb-pokemon/",
   },
+  {
+    title: "DSum Watch",
+    description:
+      "Watch DSum cycles for Game Boy Pokémon with encounter lists, based on DSumWatch created by ずのう (@zunow150poke)",
+    url: "https://flag3.github.io/dsum-watch/",
+  },
 ];
 
 export default function ToolsPage() {
