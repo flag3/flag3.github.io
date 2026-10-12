@@ -1,4 +1,4 @@
-import { CardBody, CardDescription, CardRoot, CardTitle } from "@chakra-ui/react";
+import { Button, CardBody, CardDescription, CardRoot, CardTitle } from "@chakra-ui/react";
 import { socialLinks } from "./../lib/config";
 
 export const metadata = {
@@ -64,19 +64,13 @@ export default function DocumentsPage() {
                   {document.description}
                 </CardDescription>
                 <div className="flex flex-wrap gap-4">
-                  <a
-                    href={document.mainUrl}
-                    className="text-neutral-900 dark:text-neutral-100 font-medium hover:text-neutral-600 dark:hover:text-neutral-300 hover:underline"
-                  >
-                    本文 (PDF)
-                  </a>
+                  <Button asChild variant="outline" size="sm" colorPalette="gray">
+                    <a href={document.mainUrl}>本文 (PDF)</a>
+                  </Button>
                   {document.supplementUrl && (
-                    <a
-                      href={document.supplementUrl}
-                      className="text-neutral-900 dark:text-neutral-100 font-medium hover:text-neutral-600 dark:hover:text-neutral-300 hover:underline"
-                    >
-                      具体例や絵など (PDF)
-                    </a>
+                    <Button asChild variant="outline" size="sm" colorPalette="gray">
+                      <a href={document.supplementUrl}>具体例や絵など (PDF)</a>
+                    </Button>
                   )}
                 </div>
                 <p className="text-sm text-neutral-500 dark:text-neutral-500 mt-2">
@@ -111,12 +105,11 @@ export default function DocumentsPage() {
                     最終更新: {chapter.lastUpdated}
                   </p>
                 </div>
-                <a
-                  href={chapter.url}
-                  className="shrink-0 text-neutral-900 dark:text-neutral-100 font-medium hover:text-neutral-600 dark:hover:text-neutral-300 hover:underline"
-                >
-                  PDF を開く
-                </a>
+                <Button asChild variant="outline" size="sm" colorPalette="gray">
+                  <a href={chapter.url} aria-label={`第 ${chapter.chapter} 章 ${chapter.title} のPDFを開く`}>
+                    PDF を開く
+                  </a>
+                </Button>
               </CardBody>
             </CardRoot>
           ))}

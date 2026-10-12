@@ -4,7 +4,7 @@ import { useTheme } from "next-themes";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import type { ThemeProviderProps } from "next-themes";
 import { FaCircleHalfStroke } from "react-icons/fa6";
-import { ChakraProvider, createSystem, defaultConfig } from "@chakra-ui/react";
+import { ChakraProvider, IconButton, createSystem, defaultConfig } from "@chakra-ui/react";
 
 // Tailwind owns the global reset, typography, and page colors.
 const { globalCss: _, ...chakraConfig } = defaultConfig;
@@ -26,7 +26,7 @@ export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
 }
 
 export const ThemeSwitch: React.FC = () => {
-  const { theme, setTheme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
@@ -34,31 +34,25 @@ export const ThemeSwitch: React.FC = () => {
   }, []);
 
   const toggleTheme = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
+    const newTheme = resolvedTheme === "dark" ? "light" : "dark";
     setTheme(newTheme);
   };
 
-  if (!mounted) {
-    return (
-      <FaCircleHalfStroke
-        className="h-[14px] w-[14px] text-[#1c1c1c]"
-        aria-hidden="true"
-      />
-    );
-  }
-
   return (
-    <button
+    <IconButton
       id="theme-toggle"
-      aria-label={`${theme} mode`}
+      aria-label={
+        mounted
+          ? `Switch to ${resolvedTheme === "dark" ? "light" : "dark"} mode`
+          : "Toggle color mode"
+      }
       onClick={toggleTheme}
-      className="flex items-center justify-center transition-opacity duration-300 hover:opacity-90 cursor-pointer"
+      disabled={!mounted}
+      variant="ghost"
+      size="sm"
+      colorPalette="gray"
     >
-      <FaCircleHalfStroke
-        className={`h-[14px] w-[14px] ${
-          theme === "dark" ? "text-[#D4D4D4]" : "text-[#1c1c1c]"
-        }`}
-      />
-    </button>
+      <FaCircleHalfStroke aria-hidden="true" />
+    </IconButton>
   );
 };
