@@ -1,3 +1,4 @@
+import { CardBody, CardDescription, CardRoot, CardTitle } from "@chakra-ui/react";
 import { socialLinks } from "./../lib/config";
 
 export const metadata = {
@@ -54,32 +55,35 @@ export default function DocumentsPage() {
         <h2 className="mb-6 text-xl font-medium">Mathematical Documents</h2>
         <div className="space-y-6">
           {documents.map((document) => (
-            <div
-              key={document.mainUrl}
-              className="border border-neutral-200 dark:border-neutral-800 rounded-lg p-6"
-            >
-              <h3 className="text-lg font-medium mb-2">{document.title}</h3>
-              <p className="text-neutral-600 dark:text-neutral-400 mb-4">{document.description}</p>
-              <div className="flex gap-4">
-                <a
-                  href={document.mainUrl}
-                  className="text-neutral-900 dark:text-neutral-100 font-medium hover:text-neutral-600 dark:hover:text-neutral-300 hover:underline"
-                >
-                  本文 (PDF)
-                </a>
-                {document.supplementUrl && (
+            <CardRoot key={document.mainUrl} bg="transparent">
+              <CardBody>
+                <CardTitle as="h3" fontWeight="medium" mb="2">
+                  {document.title}
+                </CardTitle>
+                <CardDescription fontSize="md" mb="4">
+                  {document.description}
+                </CardDescription>
+                <div className="flex flex-wrap gap-4">
                   <a
-                    href={document.supplementUrl}
+                    href={document.mainUrl}
                     className="text-neutral-900 dark:text-neutral-100 font-medium hover:text-neutral-600 dark:hover:text-neutral-300 hover:underline"
                   >
-                    具体例や絵など (PDF)
+                    本文 (PDF)
                   </a>
-                )}
-              </div>
-              <p className="text-sm text-neutral-500 dark:text-neutral-500 mt-2">
-                最終更新: {document.lastUpdated}
-              </p>
-            </div>
+                  {document.supplementUrl && (
+                    <a
+                      href={document.supplementUrl}
+                      className="text-neutral-900 dark:text-neutral-100 font-medium hover:text-neutral-600 dark:hover:text-neutral-300 hover:underline"
+                    >
+                      具体例や絵など (PDF)
+                    </a>
+                  )}
+                </div>
+                <p className="text-sm text-neutral-500 dark:text-neutral-500 mt-2">
+                  最終更新: {document.lastUpdated}
+                </p>
+              </CardBody>
+            </CardRoot>
           ))}
         </div>
       </div>
@@ -92,27 +96,29 @@ export default function DocumentsPage() {
         </p>
         <div className="space-y-4">
           {atiyahMacdonaldChapters.map((chapter) => (
-            <div
-              key={chapter.url}
-              className="border border-neutral-200 dark:border-neutral-800 rounded-lg p-4"
-            >
-              <div className="flex justify-between items-center">
+            <CardRoot key={chapter.url} size="sm" bg="transparent">
+              <CardBody
+                flexDirection={{ base: "column", sm: "row" }}
+                justifyContent="space-between"
+                alignItems={{ base: "flex-start", sm: "center" }}
+                gap="4"
+              >
                 <div>
-                  <h3 className="font-medium">
+                  <CardTitle as="h3" fontWeight="medium">
                     第 {chapter.chapter} 章: {chapter.title}
-                  </h3>
+                  </CardTitle>
                   <p className="text-sm text-neutral-500 dark:text-neutral-500 mt-1">
                     最終更新: {chapter.lastUpdated}
                   </p>
                 </div>
                 <a
                   href={chapter.url}
-                  className="text-neutral-900 dark:text-neutral-100 font-medium hover:text-neutral-600 dark:hover:text-neutral-300 hover:underline"
+                  className="shrink-0 text-neutral-900 dark:text-neutral-100 font-medium hover:text-neutral-600 dark:hover:text-neutral-300 hover:underline"
                 >
                   PDF を開く
                 </a>
-              </div>
-            </div>
+              </CardBody>
+            </CardRoot>
           ))}
         </div>
         <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-6 prose">

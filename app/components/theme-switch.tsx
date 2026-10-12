@@ -4,17 +4,24 @@ import { useTheme } from "next-themes";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import type { ThemeProviderProps } from "next-themes";
 import { FaCircleHalfStroke } from "react-icons/fa6";
+import { ChakraProvider, createSystem, defaultConfig } from "@chakra-ui/react";
+
+// Tailwind owns the global reset, typography, and page colors.
+const { globalCss: _, ...chakraConfig } = defaultConfig;
+const system = createSystem(chakraConfig, { preflight: false });
 
 export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
   return (
-    <NextThemesProvider
-      attribute="class"
-      defaultTheme="system"
-      enableSystem
-      {...props}
-    >
-      {children}
-    </NextThemesProvider>
+    <ChakraProvider value={system}>
+      <NextThemesProvider
+        attribute="class"
+        defaultTheme="system"
+        enableSystem
+        {...props}
+      >
+        {children}
+      </NextThemesProvider>
+    </ChakraProvider>
   );
 }
 

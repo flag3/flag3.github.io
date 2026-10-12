@@ -1,3 +1,5 @@
+import { CardBody, CardDescription, CardRoot, CardTitle } from "@chakra-ui/react";
+
 export const metadata = {
   title: "Tools",
   description: "Web-based tools for Game Boy Pokémon",
@@ -45,19 +47,26 @@ export default function ToolsPage() {
       </div>
       <div className="space-y-6">
         {tools.map((tool) => (
-          <div key={tool.url} className="group">
-            <a
-              href={tool.url}
-              className="block p-6 border border-neutral-200 dark:border-neutral-800 rounded-lg hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors"
-            >
-              <h2 className="text-lg font-medium mb-2 group-hover:text-neutral-800 dark:group-hover:text-neutral-200">
-                {tool.title}
-              </h2>
-              <p className="text-neutral-600 dark:text-neutral-400">
-                {tool.description}
-              </p>
+          <CardRoot
+            key={tool.url}
+            asChild
+            bg="transparent"
+            _hover={{ borderColor: "border.emphasized" }}
+            transition="border-color 0.2s"
+            focusVisibleRing="outside"
+            focusRingColor="gray.500"
+          >
+            <a href={tool.url}>
+              <CardBody gap="2">
+                <CardTitle as="h2" fontWeight="medium">
+                  {tool.title}
+                </CardTitle>
+                <CardDescription fontSize="md">
+                  {tool.description}
+                </CardDescription>
+              </CardBody>
             </a>
-          </div>
+          </CardRoot>
         ))}
       </div>
     </section>
