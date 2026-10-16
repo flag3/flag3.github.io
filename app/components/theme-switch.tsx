@@ -13,12 +13,7 @@ const system = createSystem(chakraConfig, { preflight: false });
 export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
   return (
     <ChakraProvider value={system}>
-      <NextThemesProvider
-        attribute="class"
-        defaultTheme="system"
-        enableSystem
-        {...props}
-      >
+      <NextThemesProvider attribute="class" defaultTheme="system" enableSystem {...props}>
         {children}
       </NextThemesProvider>
     </ChakraProvider>

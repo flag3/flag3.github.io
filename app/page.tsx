@@ -18,14 +18,14 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-medium">Welcome to flag3's Homepage</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I'm flag3, an engineer and mathematics enthusiast with a passion for exploring arbitrary 
+          I'm flag3, an engineer and mathematics enthusiast with a passion for exploring arbitrary
           code execution in Generation 1 and Generation 2 Pokémon games.
         </p>
         <p>
-          My interests span across mathematics, particularly algebraic topology, 
-          commutative algebra and combinatorics as well as deep technical explorations of classic 
-          Game Boy Pokémon games. I enjoy discovering and documenting various exploits, 
-          glitches, and creating tools for these vintage games.
+          My interests span across mathematics, particularly algebraic topology, commutative algebra
+          and combinatorics as well as deep technical explorations of classic Game Boy Pokémon
+          games. I enjoy discovering and documenting various exploits, glitches, and creating tools
+          for these vintage games.
         </p>
         <p>
           Feel free to explore my work and connect with me on{" "}

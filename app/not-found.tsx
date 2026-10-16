@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Button, EmptyStateContent, EmptyStateDescription, EmptyStateRoot, EmptyStateTitle } from "@chakra-ui/react";
+import {
+  Button,
+  EmptyStateContent,
+  EmptyStateDescription,
+  EmptyStateRoot,
+  EmptyStateTitle,
+} from "@chakra-ui/react";
 
 export const metadata: Metadata = {
   title: "404",

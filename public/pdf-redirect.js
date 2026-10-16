@@ -1,5 +1,5 @@
 // PDF redirect script for GitHub Pages 404 fallback
-(function() {
+(function () {
   const path = window.location.pathname;
   const lowerPath = path.toLowerCase();
 
@@ -9,17 +9,17 @@
     return;
   }
 
-  if (path.endsWith('.pdf')) {
-    let redirectPath = '';
+  if (path.endsWith(".pdf")) {
+    let redirectPath = "";
 
-    if (path.startsWith('/atiyah-macdonald/')) {
+    if (path.startsWith("/atiyah-macdonald/")) {
       // /atiyah-macdonald/{filename}.pdf → /pdfs/atiyah-macdonald/{filename}.pdf
-      redirectPath = path.replace('/atiyah-macdonald/', '/pdfs/atiyah-macdonald/');
+      redirectPath = path.replace("/atiyah-macdonald/", "/pdfs/atiyah-macdonald/");
     } else if (path.match(/^\/[^\/]+\.pdf$/)) {
       // /{filename}.pdf → /pdfs/{filename}.pdf
-      redirectPath = '/pdfs' + path;
+      redirectPath = "/pdfs" + path;
     } else {
-      redirectPath = '/pdfs' + path;
+      redirectPath = "/pdfs" + path;
     }
 
     if (redirectPath) {

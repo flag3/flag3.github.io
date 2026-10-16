@@ -106,7 +106,10 @@ export default function DocumentsPage() {
                   </p>
                 </div>
                 <Button asChild variant="outline" size="sm" colorPalette="gray">
-                  <a href={chapter.url} aria-label={`第 ${chapter.chapter} 章 ${chapter.title} のPDFを開く`}>
+                  <a
+                    href={chapter.url}
+                    aria-label={`第 ${chapter.chapter} 章 ${chapter.title} のPDFを開く`}
+                  >
                     PDF を開く
                   </a>
                 </Button>

@@ -41,8 +41,8 @@ export default function ToolsPage() {
       <h1 className="mb-8 text-2xl font-medium">Tools</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p className="mb-8">
-          Web-based tools for working with Generation 1 and Generation 2 Pokémon games.
-          These tools help with various aspects of game manipulation, from hex conversion to sprite editing.
+          Web-based tools for working with Generation 1 and Generation 2 Pokémon games. These tools
+          help with various aspects of game manipulation, from hex conversion to sprite editing.
         </p>
       </div>
       <div className="space-y-6">
@@ -61,9 +61,7 @@ export default function ToolsPage() {
                 <CardTitle as="h2" fontWeight="medium">
                   {tool.title}
                 </CardTitle>
-                <CardDescription fontSize="md">
-                  {tool.description}
-                </CardDescription>
+                <CardDescription fontSize="md">{tool.description}</CardDescription>
               </CardBody>
             </a>
           </CardRoot>

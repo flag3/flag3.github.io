@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "fmt": "oxfmt --check",
+    "fmt:fix": "oxfmt"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.37.0",
@@ -31,6 +33,7 @@
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "autoprefixer": "^10.4.21",
+    "oxfmt": "^0.73.0",
     "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3"
   }

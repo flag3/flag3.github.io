@@ -2,11 +2,7 @@
 
 import React from "react";
 import { IconButton } from "@chakra-ui/react";
-import {
-  FaXTwitter,
-  FaGithub,
-  FaYoutube,
-} from "react-icons/fa6";
+import { FaXTwitter, FaGithub, FaYoutube } from "react-icons/fa6";
 import { metaData, socialLinks } from "app/lib/config";
 
 const YEAR = new Date().getFullYear();
@@ -24,9 +20,21 @@ function SocialLink({ href, icon: Icon, label }) {
 function SocialLinks() {
   return (
     <div className="flex gap-1">
-      <SocialLink href={socialLinks.twitter} icon={FaXTwitter} label="Open X (Twitter) (opens in a new tab)" />
-      <SocialLink href={socialLinks.github} icon={FaGithub} label="Open GitHub (opens in a new tab)" />
-      <SocialLink href={socialLinks.youtube} icon={FaYoutube} label="Open YouTube (opens in a new tab)" />
+      <SocialLink
+        href={socialLinks.twitter}
+        icon={FaXTwitter}
+        label="Open X (Twitter) (opens in a new tab)"
+      />
+      <SocialLink
+        href={socialLinks.github}
+        icon={FaGithub}
+        label="Open GitHub (opens in a new tab)"
+      />
+      <SocialLink
+        href={socialLinks.youtube}
+        icon={FaYoutube}
+        label="Open YouTube (opens in a new tab)"
+      />
     </div>
   );
 }
