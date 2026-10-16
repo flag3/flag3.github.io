@@ -6,7 +6,9 @@
     "build": "next build",
     "start": "next start",
     "fmt": "oxfmt --check",
-    "fmt:fix": "oxfmt"
+    "fmt:fix": "oxfmt",
+    "lint": "oxlint --type-aware --type-check",
+    "lint:fix": "oxlint --type-aware --type-check --fix"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.37.0",
@@ -34,6 +36,8 @@
     "@types/react-dom": "^19.1.6",
     "autoprefixer": "^10.4.21",
     "oxfmt": "^0.73.0",
+    "oxlint": "^1.88.0",
+    "oxlint-tsgolint": "^7.0.2004",
     "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3"
   }

@@ -21,9 +21,13 @@ function CustomLink(props) {
     );
   }
   if (href.startsWith("#")) {
-    return <a {...props} />;
+    return <a {...props}>{props.children}</a>;
   }
-  return <a target="_blank" rel="noopener noreferrer" {...props} />;
+  return (
+    <a target="_blank" rel="noopener noreferrer" {...props}>
+      {props.children}
+    </a>
+  );
 }
 
 function RoundedImage(props) {
@@ -74,8 +78,8 @@ function slugify(str) {
     .trim()
     .replace(/\s+/g, "-")
     .replace(/&/g, "-and-")
-    .replace(/[^\w\-]+/g, "")
-    .replace(/\-\-+/g, "-");
+    .replace(/[^\w-]+/g, "")
+    .replace(/--+/g, "-");
 }
 
 function createHeading(level) {
@@ -121,7 +125,7 @@ export function CustomMDX(props) {
   return (
     <MDXRemote
       {...props}
-      components={{ ...components, ...(props.components || {}) }}
+      components={{ ...components, ...props.components }}
       options={{
         mdxOptions: {
           remarkPlugins: [remarkMath],

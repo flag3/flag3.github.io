@@ -56,7 +56,7 @@ export default function ToolsPage() {
             focusVisibleRing="outside"
             focusRingColor="gray.500"
           >
-            <a href={tool.url}>
+            <a href={tool.url} aria-label={tool.title}>
               <CardBody gap="2">
                 <CardTitle as="h2" fontWeight="medium">
                   {tool.title}
