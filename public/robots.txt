@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://flag3.github.io/sitemap.xml
+Sitemap: https://flag3.github.io/blog/sitemap.xml
