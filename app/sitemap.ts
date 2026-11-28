@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/",
     "/pdfs",
     "/tools",
+    "/videos",
     "/hex-converter-gb-pokemon/",
     "/pixel-art-editor/",
     "/vite-input-gb-pokemon/",
